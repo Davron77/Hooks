@@ -16,7 +16,7 @@ export default function Home() {
             <h3 className="text-xl">useMemo ❌</h3>
           </Link>
           <Link href={"/useReducer"}>
-            <h3 className="text-xl">useReducer ❌</h3>
+            <h3 className="text-xl">useReducer ✅</h3>
           </Link>
           <Link href={"/custom-hooks"}>
             <h3 className="text-xl">Custom Hooks ❌</h3>
