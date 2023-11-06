@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <main className="flex min-h-screen flex-col items-center justify-center p-24">
@@ -13,16 +13,17 @@ export default function Home() {
             <h3 className="text-xl">useCallback ✅</h3>
           </Link>
           <Link href={"/useMemo"}>
-            <h3 className="text-xl">useMemo ❌</h3>
+            <h3 className="text-xl">useMemo ✅</h3>
           </Link>
           <Link href={"/useReducer"}>
             <h3 className="text-xl">useReducer ✅</h3>
           </Link>
           <Link href={"/custom-hooks"}>
-            <h3 className="text-xl">Custom Hooks ❌</h3>
+            <h3 className="text-xl">Custom Hooks ✅</h3>
           </Link>
         </div>
       </main>
     </>
   );
-}
+};
+export default Home;
