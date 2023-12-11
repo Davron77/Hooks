@@ -3,6 +3,9 @@ import Link from "next/link";
 const Home = () => {
   return (
     <>
+      <nav>
+        <h1>Menu</h1>
+      </nav>
       <main className="flex min-h-screen flex-col items-center justify-center p-24">
         <h1 className="text-4xl font-bold">React Hooks</h1>
         <div className="flex flex-col gap-3 my-7">
