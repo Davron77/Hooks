@@ -28,6 +28,7 @@ const Home = () => {
       </main>
       <footer>
         <h1>Test</h1>
+        <h2>Test 2</h2>
       </footer>
     </>
   );
