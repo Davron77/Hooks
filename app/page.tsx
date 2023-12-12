@@ -27,8 +27,9 @@ const Home = () => {
         </div>
       </main>
       <footer>
-        <h1>Test</h1>
+        <h1>Test 1</h1>
         <h2>Test 2</h2>
+        <h3>Test 3</h3>
       </footer>
     </>
   );
